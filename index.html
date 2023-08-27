@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/3faa7b44ba.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo2.png" class="logo">
+            <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <img src="images/IMG20221106120538-min-min\ \(1\).jpg" alt="">
+        <div class="header-text">
+            <p>Javascript enthusiast</p>
+            <h1>Hi,I am <span>Abhishek</span> <br> Gupta from India</h1>
+        </div>
+    </div>
+</div>
+-<!----------about-------->
+><div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/IMG20221106120538-min-min (1).jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hi, My name is Abhishek Gupta. ​I am currently pursuing my Bachelors in Technology with Electronics and Communication stream from Manipal University with 8.3 CGPA. Also, I did my 12th & 10th from ICSE Board in the year 2019 and 2017 respectively. Though I am currently staying in Gorakhpur – I was born and brought up in Lucknow, Uttar Pradesh, and did my schooling from there. Considering my family background details – we’re 4 members in the family. Apart from my parents, I have a sibling.
+                    <br>
+                    As you’d have known – I am here for the role of Software Developer. Coming to my skills I know Java,JavaScript,and I am familiar with backend and frontend technolgies. I had one internships as well in this particular domain where along with core technical things I also learned organizational ethics and discipline. Moreover, I also did 2 successful individual projects using these backend technologies in my college tenure.
+                    <br>
+                    To be honest, my short-term goal is to get a job in a reputed company where I can use my skills and knowledge to deliver value-added result and in long term, the goal would be to achieve a good position in the particular company to scale up organization’s production & growth rate and at the same time for the betterment of my personal career growth as well. Other than that, if I talk about my strengths – I can say that I’m a quick learner, team player, adaptable and creative person – and I do guess that these strengths of mine are perfectly suitable for this job role.
+                    <br>
+                    In my free time, I enjoy spending time with my family, reading, playing outdoor sports, and sometimes cooking. </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                    <p class="tab-links" onclick="openTab('experience')">Experience</p>
+                    <p class="tab-links" onclick="openTab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Frontend </span><br>Technologies: HTML5, CSS3, JavaScript <br>Frameworks: React.js <br>Responsive Web Design <br>Version Control: Git, GitHub</li>
+                        <li><span>Backend</span><br>Java,Node.js,Express.js<br>API Development: RESTful<br>Database Management: SQL (MySQL, PostgreSQL), NoSQL (MongoDB)<br>AWS</li>
+                        <li><span>MERN Stack Web Developer</span><br>MongoDB,React.js,Express.js,Node.js</li>
+                    </ul>
+                </div>
+                <div class="tab-contents"id="experience">
+                    <ul>
+                        <li><span>Student Intern</span><br>LinuxWorld Pvt Ltd</li>
+                        <li><span>Student Trainee</span><br>Azure Skynet</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2024</span><br>Manipal Institute Of Technology</li>
+                        <li><span>2019</span><br>City Montessori School</li>
+                        <li><span>2017</span><br>Vikas Bharti School</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--------services--------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Frontend Developer</h2>
+                <p>Developed and maintained user-friendly and responsive web applications using modern front-end technologies
+                </p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>Backend Developer</h2>
+                <p>Collaborated closely with front-end developers and product managers to define and implement API endpoints.
+                    Designed and optimized database schemas, improving query performance and data retrieval efficiency.
+                    Implemented authentication and authorization mechanisms to secure API endpoints and user data.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-js"></i>
+                <h2>MERN Stack Developer</h2>
+                <p> I've honed my skills in both front-end and back-end development. On the front-end, I excel in creating responsive and user-friendly interfaces using React.js. I'm well-versed in state management, component architecture, and building interactive web experiences. My attention to detail and commitment to delivering top-notch user interfaces ensures that the applications I develop not only function flawlessly but also delight users.
+                    On the back-end, I leverage the power of Node.js and Express.js to build robust and scalable APIs. I'm proficient in database design and management, with MongoDB being my database of choice for its flexibility and scalability. Authentication is always a top priority.
+                    </p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!------------portfolio-->
+<div id="portfolio">
+    <div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+        <div class="work">
+            <img src="images/work-1.png" >
+            <div class="layer">
+                <h3>ToDo App</h3>
+                <p>This to-do app offers user registration, task management, priority sorting, notifications, archiving, a user-friendly interface, data backup, and robust security for a seamless task management experience.</p>
+                <a href="https://to-do-app-frontend-nu.vercel.app"><i class="fa-solid fa-link"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/work-2.png" >
+            <div class="layer">
+                <h3>Pdf Merger App</h3>
+                <p>Merges contents of two pdfs into one using JavaScript and Bootstrap</p>
+                <a href="https://github.com/Abhishek1738/pdfMerger.git"><i class="fa-solid fa-link"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/work-3.png" >
+            <div class="layer">
+                <h3>Ecommerce Website</h3>
+                <p>Created a custom e-commerce solution using MERN Stack, integrating it with the a payment gateway.
+                    Developed a robust back-end system to handle product inventory, order management, and payment processing.
+                    Implemented search and filtering functionalities to enhance the user's browsing experience.
+                    Designed and implemented an admin panel for managing product listings, discounts, and promotions.</p>
+                <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<!----------conatct-->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>ishangupta@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>7706948253</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/ishangpt143/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/abhishek-gupta-4442661b8/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                 <a href="AbhishekGupta.pdf"  download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type=" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copywrite"></div>
+</div>
+
+<script>
+
+    var tablinks=document.getElementsByClassName("tab-links")
+    var tabcontents=document.getElementsByClassName("tab-contents")
+    function openTab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+    var sidemeu=document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right="0";
+    }
+    function closemenu(){
+        sidemeu.style.right="-200";
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyv3jz1WTi-tQJ6DvLapU4IvlLDPmAI0YwxqxRRSkyECjSz8Z8NykESTx3s0CG0dYOaGg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+
+  </script>
+</body>
+</html>
